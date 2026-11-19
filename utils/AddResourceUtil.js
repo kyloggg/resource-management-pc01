@@ -1,4 +1,4 @@
-const { Resource } = require('../models/resource');
+const { Resource } = require('../models/Resource');
 const fs = require('fs').promises;
 const path = require('path');
 
@@ -14,7 +14,7 @@ async function addResource(req, res) {
         try {
             // Try reading the existing resources.json
             const data = await fs.readFile(RESOURCES_FILE, 'utf8');
-            resources = JSON.parse(data);
+            resources = JSON.parse(data);   
         } catch (err) {
             if (err.code === 'ENOENT') {
                 // If resources.json doesn't exist, create it from the template
