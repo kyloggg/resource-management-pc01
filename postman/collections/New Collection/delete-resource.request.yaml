@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:5050/delete-resource/1793237643682610
+method: DELETE
+body:
+  type: json
+  content: ""
+order: 4000

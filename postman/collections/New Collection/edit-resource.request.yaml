@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:5050/edit-resource/1793237643682610
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Prism 50-inch TV\",\r
+
+    \    \"location\": \"Blk 3 Lvl 5 Rm 1\",\r
+
+    \    \"description\": \"Purchased for XYZ Exhibition\",\r
+
+    \    \"owner\": \"john@gmail.com\"\r
+
+    }\r\n"
+order: 3000

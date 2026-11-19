@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:5050/add-resource
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"test\",\r
+
+    \    \"location\": \"test\",\r
+
+    \    \"description\": \"test\",\r
+
+    \    \"owner\": \"test@gmail.com\"\r
+
+    }"
+order: 2000
