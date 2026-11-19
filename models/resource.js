@@ -12,3 +12,4 @@ class Resource {
 }
 
 module.exports = { Resource };
+
