@@ -1,3 +1,6 @@
+# JSON data files
+utils/resources.json
+
 # Logs
 logs
 *.log
@@ -147,6 +150,3 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
-
-# JSON data files
-utils/resources.json
